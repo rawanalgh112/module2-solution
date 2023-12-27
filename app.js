@@ -1,6 +1,5 @@
 (function () {
 'use strict';
-//var shoppingList1 = [{name:"Pasta", Quantity: "7"},{name:"Burger", Quantity: "5"}, {name:"Pizza",Quantity:"4" } , {name:"Cookies",Quantity:"7" }, {name:"Chocolate",Quantity:"9" }]
 
 angular.module('ShoppingListApp', [])
 .controller('ToBuyController', ToBuyController)
