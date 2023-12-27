@@ -10,7 +10,7 @@ angular.module('ShoppingListApp', [])
 ToBuyController.$inject = ['ShoppingListService'];
 function ToBuyController(ShoppingListService) {
   var itemAdder = this;
-
+var counter=0;
 
   ShoppingListService.inisiateArr() ;
   itemAdder.items = ShoppingListService.getItems();
